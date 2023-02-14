@@ -6,14 +6,14 @@
 #    By: amoubare <amoubare@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/02/14 01:57:19 by amoubare          #+#    #+#              #
-#    Updated: 2023/02/14 01:57:21 by amoubare         ###   ########.fr        #
+#    Updated: 2023/02/14 03:22:41 by amoubare         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-CC = c++ -Wall -Wextra -Werror -std=c++98 -g -o cast 
+CC = c++ -Wall -Wextra -Werror -std=c++98 -g -o dynamic_cast 
 SRC =  main.cpp 
 
-NAME = cast
+NAME = dynamic_cast
 
 all: $(NAME)
 
